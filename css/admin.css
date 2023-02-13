@@ -1,0 +1,128 @@
+/*
+	ADMIN 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+	padding: 1%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+.tbl-full{
+	width: 100%;	
+}
+
+.tbl-30{
+	width: 30%;
+}
+
+table tr th{
+	border-bottom: 1px solid black;
+	padding: 1%;
+	text-align: left;
+}
+
+table tr td{
+	padding: 1%;
+}
+
+.btn-primary{
+	background-color: #25CCF7;
+	padding: 1%;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btn-primary:hover{
+	background-color: #1B9CFC;
+}
+
+.btn-secondary{
+	background-color: #0be881;
+	padding: 1%;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btn-secondary:hover{
+	background-color:#05c46b;
+}
+
+.btn-delete{
+	background-color: #ef5777;
+	padding: 1%;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btn-delete:hover{
+	background-color:#f53b57;
+}
+
+/* menu style*/
+.menu{
+	border-bottom: 1px solid grey;
+}
+.menu ul{
+	list-style-type: none;
+}
+
+.menu ul li{
+	display: inline;
+	padding: 1%;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #895061
+}
+
+.menu ul li a:hover{
+	color: #78244c
+}
+
+/* main content stye */
+.main-content{
+	background-color: #aaa69d;
+	padding: 3% 0 ;
+}
+
+.col-4{
+	width: 18%;
+	background-color: white;
+	margin: 1%;
+	padding: 2%;
+	float: left;
+}
+
+/* footer style */
+.footer{
+	background-color: #d8c3a5
+}
+
+/* login admin */
+.login{
+	border: 1px solid black;
+	width: 20%;
+	margin: 10% auto;
+	padding: 2% 2%;
+}
